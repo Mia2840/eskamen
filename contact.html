@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONTAKT</title>
+    <link rel="stylesheet" href="Css/contact.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/91a226a0b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- navigation --> 
+     <nav>
+        <div class="logo">
+            <img src="images/LOGO - HÅNDSKREVET.png" width=80px>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index 20.38.27.html">HJEM</a>
+               </li>
+            <li>
+                <a href="Om-mig.html">OM MIG</a>
+               </li>
+            <li>
+                <a href="portfolio.html">PORTFOLIO</a>
+               </li>
+            <li>
+                <a href="projekter.html">PROJEKTER</a>
+               </li>
+            <li>
+                <a href="contact.html">KONTAKT</a>
+               </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <script src="app.js"></script>
+    </nav>
+
+    <section id="kontakt">
+  
+        <h1 class="section-header">KON<span>TAKT</span></h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- venstre kontakt side --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+            <br>
+    
+           
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="navn" placeholder="NAVN" navn="navn" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      <br>
+            <textarea class="form-control" rows="10" placeholder="BESKED" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- højre contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">2970 | Hørsholm</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:50447185" title="Give me a call">+45 50 44 71 85</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:Cph-mw256@cphbusiness.dk" title="Send me an email">Cph-mw256@cphbusiness.dk</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://github.com/Mia2840/F-rdig-portfolio" target="_blank" class="contact-icon">
+                  <i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/mwal_ter/" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.facebook.com/mia.walter/" target="_blank" class="contact-icon">
+                  <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              <div class="copyright">&copy; MIA WALTER</div>
+      
+            </div>
+          
+        </div>
+        <script src="/kontakt.js"></script>
+      </section>  
+</body>
+</html>
